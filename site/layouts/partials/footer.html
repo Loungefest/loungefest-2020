@@ -1,53 +1,65 @@
-<footer class="bg-black ph3 pv4 white">
+<!--Footer-->
+<footer class="bg-fixed" style="background-image: url(img/background-lf.png)">
+	<div class="container mx-auto  px-8">
 
-	<div class="mw7 center pt3">
+		<div class="w-full flex flex-col md:flex-row py-6">
 
-		<div class="measure-narrow center mb4">
-
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
-
-			{{ partial "newsletter-form" . }}
-
-		</div>
-
-		<div class="flex-ns justify-between">
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
+			<div class="flex-1">
+				<p class="uppercase text-gray-500 md:mb-6">Links</p>
+				<ul class="list-reset mb-6">
+					<li class="mt-2 inline-block mr-2 md:block md:mr-0">
+						<a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">FAQ</a>
+					</li>
+					<li class="mt-2 inline-block mr-2 md:block md:mr-0">
+						<a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Help</a>
+					</li>
+					<li class="mt-2 inline-block mr-2 md:block md:mr-0">
+						<a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Support</a>
+					</li>
 				</ul>
 			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule and appointment</a></li>
+			<div class="flex-1">
+				<p class="uppercase text-gray-500 md:mb-6">Legal</p>
+				<ul class="list-reset mb-6">
+					<li class="mt-2 inline-block mr-2 md:block md:mr-0">
+						<a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Terms</a>
+					</li>
+					<li class="mt-2 inline-block mr-2 md:block md:mr-0">
+						<a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Privacy</a>
+					</li>
 				</ul>
 			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
+			<div class="flex-1">
+				<p class="uppercase text-gray-500 md:mb-6">Social</p>
+				<ul class="list-reset mb-6">
+					<li class="mt-2 inline-block mr-2 md:block md:mr-0">
+						<a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Facebook</a>
+					</li>
+					<li class="mt-2 inline-block mr-2 md:block md:mr-0">
+						<a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Linkedin</a>
+					</li>
+					<li class="mt-2 inline-block mr-2 md:block md:mr-0">
+						<a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Twitter</a>
+					</li>
 				</ul>
 			</div>
-
+			<div class="flex-1">
+				<p class="uppercase text-gray-500 md:mb-6">Company</p>
+				<ul class="list-reset mb-6">
+					<li class="mt-2 inline-block mr-2 md:block md:mr-0">
+						<a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Official Blog</a>
+					</li>
+					<li class="mt-2 inline-block mr-2 md:block md:mr-0">
+						<a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">About Us</a>
+					</li>
+					<li class="mt-2 inline-block mr-2 md:block md:mr-0">
+						<a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Contact</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 
+	<a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik - www.freepik.com</a>
+
 </footer>
-
-{{ partial "svg" . }}
-
-<script src="/app.js"></script>
